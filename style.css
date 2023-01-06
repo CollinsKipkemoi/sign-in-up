@@ -1,0 +1,50 @@
+:root{
+    background: url(./home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  width: 60%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid chocolate;
+  margin: 10vh auto;
+  background: transparent;
+  border-radius: 20px;
+  text-align: center;
+  color: chocolate;
+  
+
+}
+form > input{
+    text-align: center;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid chocolate;
+
+}
+input:hover{
+    background: chocolate;
+    color: white;
+}
+#button{
+    background: chocolate;
+    padding: 5px;
+    border: 1px solid chocolate;
+    border-radius: 3px;
+}
+a{
+    color: white;
+}
+input:active{
+    border:1px solid chocolate ;
+}
