@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    overflow: auto;
 }
 *{
     margin: 0;
@@ -37,6 +38,9 @@ input:hover{
     background: chocolate;
     color: white;
 }
+.privacy{
+    font-size: 12px;
+}
 #button{
     background: chocolate;
     padding: 5px;
@@ -48,4 +52,27 @@ a{
 }
 input:active{
     border:1px solid chocolate ;
+}
+@media screen and (max-width:700px) {
+    .privacy{
+        margin-top: -2vh;
+    }
+}
+@media screen and (min-width:701px) and (max-width:900px){
+    body{
+        width: 50vw;
+        border-radius: 30px;
+    }
+    .privacy{
+        margin-top: -2vh;
+    }
+}
+@media screen and (min-width:901px){
+    .privacy{
+        margin-top: -2vh;
+    }
+    body{
+        width: 60vh;
+        border-radius: 35px;
+    }
 }
