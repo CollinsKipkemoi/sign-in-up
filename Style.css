@@ -1,5 +1,5 @@
 :root{
-    background: url(./home.jpg);
+    background: url(./images/Home.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.body{
   width: 60%;
   height: 80%;
   display: flex;

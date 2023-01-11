@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(224, 105, 20);
+}
+:root{
+    background: url(./images/Home.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+   
+}
+.head{
+    height: 10vh;
+    width: 100vw;
+    padding:0 ;
+    align-items:center;
+    
+}
+.box1,.box2{
+    height: 10vh;
+    width: 50vw;
+    border: 1px solid green;
+    float: left;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.box2>h4{
+    float: left;
+  
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 10
+}
+
+.Mainlogo{
+    position: relative;
+    margin: 0 auto;
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    background: transparent;
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+
+}
+main>h1{
+    float: right;
+    font-weight: bolder;
+}
+
+
+
+/* MENU */
+.container{
+    width: 100vw;
+    border: 1px solid green;
+    min-height: 100vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container>div{
+   
+    width: 200px;
+    height: 150px; 
+    float: left;
+    border: 1px solid yellow;
+    float: right;
+}
+img{
+    width: 180px;
+    margin: auto;
+}
